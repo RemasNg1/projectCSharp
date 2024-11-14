@@ -1,5 +1,4 @@
 ﻿
-
 using System;
 using System.Xml.Linq;
 
@@ -28,8 +27,6 @@ namespace Cproject
 
                 Names.Add(StuName);
                 Degrees.Add(StuDeg);
-               
-                //Console.WriteLine(Names+" "+Degrees);
 
             }
             Console.WriteLine("{0,-20} {1,8} {2,10}","Student Name","Mark", "Status");
